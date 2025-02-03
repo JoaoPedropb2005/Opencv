@@ -1,7 +1,7 @@
 #Biblioteca Opencv
 import cv2
 #Armazenando o endereço da imagem em uma Variável
-caminho_imagem = "Imagens/catimage.jpg"
+caminho_imagem = "Imagens/elephantimage.jpg"
 #definindo o valor do blur em uma variável
 blur_lvl = 7
 blur_lvl_high = 50

@@ -3,7 +3,7 @@ import cv2
 #Biblioteca numpy
 import numpy as np
 #armazenando o endereço de imagem em uma variável
-caminho_imagem = "Imagens/catimage.jpg"
+caminho_imagem = "Imagens/zebraimage.jpg"
 #lendo a imagem
 img = cv2.imread(caminho_imagem)
 #Usando a função Canny para detecção de bordas na imagem

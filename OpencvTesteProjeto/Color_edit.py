@@ -1,7 +1,7 @@
 #Biblioteca Opencv
 import cv2
 #armazenando caminho da imagem em uma variável
-caminho_imagem = "Imagens/catimage.jpg"
+caminho_imagem = "Imagens/tigerimage.jpg"
 #lendo a imagem e armazenando em uma variavel, assim como alguns exemplos de variações usando o opencv
 img = cv2.imread(caminho_imagem)
 grayimg = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
